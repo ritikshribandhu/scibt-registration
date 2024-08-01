@@ -1,0 +1,323 @@
+
+.mainheader{
+    height: 500px;
+    background-image:linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.4)), url(graduate.jpg);
+    background-size: cover;
+    padding-top: 40px;
+    border-bottom: 5px solid#030637 ;
+}
+.nav{
+    height:100px;
+    color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.menu a{
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px ;
+    font-size: 20px;
+}
+.logo{
+    height: 100px;
+    width: 100px;
+    background-image: url(logo1.jpg);
+    background-size: cover;
+    position: absolute;
+    top:30%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    justify-content: center;
+}
+.logo{
+    height: 100px;
+    width: 100px;
+    background-image: url(logo1.jpg);
+    background-size: cover;
+    position: absolute;
+    top:30%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    justify-content: center;
+}
+.headertext{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+.info{
+    font-size: 30px;
+    text-align: center;
+}
+
+.contant{
+    display: inline;
+    display:flex;
+}
+
+.outer{
+    height: 600px;
+    width: 700px;
+    background-color: #DEAC80;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #973131 ;
+}
+
+.inner{
+    height: 500px;
+    width: 600px;
+    background-color: #F7DCB9;
+}
+
+.heading{
+    height: 50px;
+    width: 600px;
+    text-align: center;
+}
+
+.pre{
+    font-size: large;
+    line-height: 30px;
+}
+
+.link{
+    font-size: large;
+    color: #1618c2;
+}
+
+/**box2**/
+.box{
+    height: 600px;
+    width: 500px;
+    background-color: #B5C18E;
+    border: 2px solid #973131 ;
+}
+.box1{
+    background-image: url(dhsu1.webp);
+    background-size: auto;
+    background-repeat: no-repeat;
+    height: 300px;
+    width: 500px;
+}
+.box2{
+    height: 300px;
+    width: 500px;
+    font-size: large;
+    text-align: center;
+}
+.career{
+    font-size: 30px;
+    text-align: center;
+}
+.cource{
+    height: 500px;
+    background-image: url(college\ dekho.webp);
+    background-color: orange;
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.photo{
+    border: 2px solid #17153B ;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.3);
+    background-color:#2E236C ;
+    height: 100px;
+    width: 250px;
+    padding-top: 10px;
+    align-self: flex-end;
+    font-size: medium;
+    text-align: center;
+}
+.photo a{
+    color:white ;
+    text-decoration: none;
+    font-size: 25px;
+}
+.placement{
+    height: 400px;
+    background-image:linear-gradient(rgba(0,0,0,0.20),rgba(0,0,0,0.2)), url(placement.jpg);
+    background-size: cover;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.company{
+    background-color: #FC6736;
+    border-radius: 15px;
+    border: 2px solid #0C2D57 ;
+    height: 80px;
+    width: 250px;
+    align-self: flex-end;
+    padding-top: 30px;
+    font-size: 40PX;
+    text-align: center;
+    color:#030637;
+}
+.placeheading{
+    font-size: 30px;
+    text-align: center;
+}
+/**gallery**/
+.gallery{
+    background-color: #96C9F4;
+    font-size: 30px;
+    text-align: center;
+    box-shadow: 3px 3px 15px rgba(0,0,0,0.3);
+}
+.collegegallery{
+    height: 600px;
+    background-color: #EEEEEE;
+}
+.eventhead{
+    font-size: 25px;
+    padding-left: 10px;
+}
+.event{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+/**review**/
+.mainreview{
+    height: 500px;
+    background-image:linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.2)), url(review1.jpg);
+    background-size: cover;
+}
+.studentreview{
+    font-size: 30px;
+    padding-top: 10px;
+    text-decoration: underline;
+    color: white;
+    text-align: center;
+}
+.review{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-top: 50px;
+    font-size: 20px;
+}
+
+/**result**/
+.resultheading{
+    background-color: #96C9F4;
+    font-size: 30px;
+    text-align: center;
+    box-shadow: 3px 3px 15px rgba(0,0,0,0.3);
+}
+  
+.result{
+    display: flex;
+    justify-content: center;
+    background-color: #EEEEEE;
+}
+.resultinner{
+    border: 3px solid #134B70;
+    box-shadow: 3px 3px 15px rgba(0,0,0,0.3);
+}
+    
+/**registration**/
+.registration{
+    height: 600px;
+    background-color: #DEAC;
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+.head{
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 20px;
+    text-decoration: underline;
+}
+.register{
+    height:560px ;
+    width: 600px;
+    background-color: #F7DCB9;
+    font-size: 15px;
+    border-radius: 10px;
+    border: 2px solid orangered;
+    box-shadow: 3px 3px 15px rgba(0,0,0,0.3);
+    color: black;
+}
+form#register{
+    margin: 50px;
+}
+.label{
+    font-family: sans-serif;
+    font-size: 18px;
+    font-style: normal;
+}
+input#name{
+    width: 400px;
+    border: 2px solid orangered;
+    border-radius: 3px;
+    outline: 0;
+    padding: 5px;
+    box-shadow: inset 2px 2px 6px rgba(0,0,0,0.3);
+
+}
+input#submit{
+    width: 150px;
+    font-size: 15px;
+    font-family: sans-serif;
+    border-radius: 3px;
+    background-color: orangered;
+    color: #030637;
+    box-shadow: 1px 1px 5px rgba(0,0,0,0.3);
+    margin-bottom: 10px;
+}
+
+
+/**footer**/
+
+.foot-panel1{
+    background-color:#31304D ;
+    color: white;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: large;
+}
+.foot-panel2{
+    background-color:#161A30 ;
+    color: white;
+    height: 300px;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+ul a{
+    display: block;
+    margin-top: 10px;
+}
+ul h3{
+    font-size: 30px;
+}
+.foot-panel3{
+    background-color:#161A30 ;
+    color: white;
+    height: 50px;
+    margin-top: 0%;
+    padding-bottom: 10px;
+}
+.logo2{
+    font-size: 20px;
+    display: flex;
+   justify-content: center;
+}
+
+   
